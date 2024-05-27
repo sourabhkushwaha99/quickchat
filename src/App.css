@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/* body {
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand i {
+  margin-right: 10px;
+} */
+
+/* 
+body {
+  background-color: #f8f9fa;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  margin-bottom: 20px;
+}
+
+.main-form-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-container, .history-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+} */
+
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.bg-opacity-50 {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+h4, h5 {
+  margin-bottom: 20px;
+}
+
+.btn-outline-dark, .btn-outline-danger, .btn-outline-secondary, .btn-outline-success {
+  margin: 5px;
+}
+
+.card {
+  margin-bottom: 20px;
 }

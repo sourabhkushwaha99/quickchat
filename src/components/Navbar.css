@@ -1,0 +1,68 @@
+
+   .navbar {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand i {
+    margin-right: 8px;
+  }
+  
+  .nav-link {
+    margin-left: 8px;
+  }
+  
+  /* Styling for light theme */
+  .navbar-light {
+    background-color: #198753 !important;
+  }
+  
+  .navbar-light .navbar-brand,
+  .navbar-light .nav-link,
+  .navbar-light .navbar-toggler {
+    color: #ffffff !important;
+  }
+  
+  .navbar-light .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .navbar-light .btn-outline-light:hover,
+  .navbar-light .nav-link.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #198753 !important; /* Ensure text color changes on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Add white shadow effect */
+  }
+  
+  /* Styling for dark theme */
+  .navbar-dark {
+    background-color: #343a40 !important;
+  }
+  
+  .navbar-dark .navbar-brand,
+  .navbar-dark .nav-link,
+  .navbar-dark .navbar-toggler {
+    color: #ffffff !important;
+  }
+  
+  .navbar-dark .btn-outline-light {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .navbar-dark .btn-outline-light:hover,
+  .navbar-dark .nav-link.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #343a40 !important; /* Ensure text color changes on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Add white shadow effect */
+  }
+  
